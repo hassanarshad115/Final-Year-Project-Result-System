@@ -16,5 +16,19 @@ namespace FYP
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Show_Students_RecordForm str = new Show_Students_RecordForm();
+            str.ShowDialog();
+        }
+
+        private void InsertStudentInfoButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            InsertStudentRecordForm isrf = new InsertStudentRecordForm();
+            isrf.ShowDialog();
+        }
     }
 }
