@@ -23,9 +23,7 @@ namespace FYP
         {
             if (IsValidated()) //ye if k sath valid ha ye khali block k lye ha k koi blok empty to ni
             {
-
-
-                try
+               try
                 {
                     bool usernamecorrect, passwordcorrect;
 
@@ -45,6 +43,9 @@ namespace FYP
 
 
                             MessageBox.Show("successfully login");
+                            this.Hide();
+                            MainForm mf = new MainForm();
+                            mf.ShowDialog();
 
 
                         }

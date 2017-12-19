@@ -71,7 +71,7 @@
             this.maskedTextBox1.Mask = "2000-00";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(60, 21);
-            this.maskedTextBox1.TabIndex = 2;
+            this.maskedTextBox1.TabIndex = 0;
             // 
             // springradioButton
             // 
@@ -90,7 +90,7 @@
             this.fallradioButton.Location = new System.Drawing.Point(192, 83);
             this.fallradioButton.Name = "fallradioButton";
             this.fallradioButton.Size = new System.Drawing.Size(45, 19);
-            this.fallradioButton.TabIndex = 1;
+            this.fallradioButton.TabIndex = 2;
             this.fallradioButton.TabStop = true;
             this.fallradioButton.Text = "Fall";
             this.fallradioButton.UseVisualStyleBackColor = true;
@@ -100,7 +100,7 @@
             this.button1.Location = new System.Drawing.Point(113, 128);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
+            this.button1.TabIndex = 3;
             this.button1.Text = "&OK";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
