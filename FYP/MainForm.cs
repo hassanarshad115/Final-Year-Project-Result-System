@@ -29,6 +29,7 @@ namespace FYP
             {
                 if (maskedTextBox1.Text == "2016-18" && springradioButton.Checked == true)
                 {
+
                     spring1618 s = new spring1618();
                     s.Show();
                 }
@@ -58,6 +59,7 @@ namespace FYP
             if(maskedTextBox1.Text == "2   -")//its selected from maskedtextbox
             {
                 MessageBox.Show("Please Select Session", "ERROR !!!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                maskedTextBox1.Focus();
                 return false;
             }
             return true;

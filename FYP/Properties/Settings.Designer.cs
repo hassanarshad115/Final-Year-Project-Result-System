@@ -34,5 +34,15 @@ namespace FYP.Properties {
                 this["UserName"] = value;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-C78EE50;Initial Catalog=FYPDB;Integrated Security=True")]
+        public string FYPDBConnectionString {
+            get {
+                return ((string)(this["FYPDBConnectionString"]));
+            }
+        }
     }
 }

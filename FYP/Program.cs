@@ -16,7 +16,7 @@ namespace FYP
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new InsertStudentRecordForm());
+            Application.Run(new DashboardForm());
         }
     }
 }
